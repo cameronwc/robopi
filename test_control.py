@@ -6,7 +6,7 @@ def init():
     gpio.setup(17, gpio.OUT)
     gpio.setup(22, gpio.OUT)
     gpio.setup(23, gpio.OUT)
-    gpio.setup(24, gpio.out)
+    gpio.setup(24, gpio.OUT)
 
 def forward(tf):
     init()
